@@ -5,7 +5,7 @@ function nodeAdd(event){
   let addDom = document.createElement('span');
   this.appendChild(addDom);
   if(event.ctrlKey || event.metaKey){
-    addDom.innerHTML = " + command or control";
+    addDom.innerHTML = " + command or control...";
   } else {
     addDom.innerHTML = " click only!! ";
   }
