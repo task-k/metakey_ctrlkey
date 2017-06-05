@@ -1,0 +1,28 @@
+{
+  "name": "metakeys",
+  "version": "1.0.0",
+  "description": "metakey and ctrlkey diff develop",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "task-k",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/task-k/metakey_ctrlkey.git"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
