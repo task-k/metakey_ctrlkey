@@ -4,7 +4,7 @@
   "description": "metakey and ctrlkey diff develop",
   "main": "gulpfile.coffee",
   "scripts": {
-    "test": "run"
+    "start": "http-server -o"
   },
   "author": "task-k",
   "license": "MIT",
@@ -23,6 +23,6 @@
     }
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "http-server": "^0.10.0"
   }
 }
